@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#container {
+  height: 100vh; /* اجعل الحاوية تملأ الشاشة بالكامل */
+  width: 100%; /* اجعل العرض بالكامل */
+  overflow: hidden; /* لمنع ظهور التمرير */
+}
