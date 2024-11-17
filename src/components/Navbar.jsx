@@ -249,7 +249,7 @@ const Navbar = () => {
         bodyStyle={{ display: "flex", flexDirection: "column", height: "100%" }}
       >
         <div style={{ flexGrow: 1 }}>
-          <Menu mode="inline" defaultSelectedKeys={["dashboard"]}>
+          <Menu mode="inline" defaultSelectedKeys={["dashboard"]} width="100vw">
             {menuItems}
           </Menu>
         </div>
